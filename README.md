@@ -57,11 +57,7 @@ If the target velocity is zero and the vehicle current velocity is below 0.1 bra
 
 The calculated throttle, brake and steer values are returned 
 
-
-
 ### DBW Node
-
-
 
 ### Traffic Light Detection
 This node predicts a color of traffic light, that ego vehicle is approaching, using trained **SSD MobileNet v1** of [TensorFlow Object Detection API](https://github.com/tensorflow/models/tree/master/research/object_detection) for traffic light detection by feeding camera data. 
